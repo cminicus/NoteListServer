@@ -1,7 +1,7 @@
 
 module.exports = {
 	development: {
-		db: 'mongodb://localhost/todoList-dev',
+		db: process.env.MONGOLAB_URI || 'mongodb://localhost/todoList-dev',
 		port: process.env.PORT || 3030,
 		seedDB: true
 	},
