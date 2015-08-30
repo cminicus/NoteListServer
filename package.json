@@ -1,0 +1,19 @@
+{
+  "name": "todolistserver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple web server to hold todo list items",
+  "main": ".bin/www",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Clayton Minicus",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.1.3"
+  }
+}
